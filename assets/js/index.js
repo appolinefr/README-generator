@@ -44,9 +44,9 @@ const questions = [
     name: "email",
   },
   {
-    type: "checkbox",
+    type: "list",
     message: "Which licence would you like to add?",
-    name: "licence",
+    name: "license",
     choices: [
       "Apache License v2.0",
       "GNU General Public License v3.0",
@@ -58,7 +58,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(data) {
-  fs.writeFile("readme.md", generateMarkdown(data), (err) =>
+  fs.writeFileSync("/dist/readme.md", generateMarkdown(data), (err) =>
     err
       ? console.log(err)
       : console.log("Your readme file was successfully created!")
