@@ -47,15 +47,15 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   switch (license) {
     case "Apache License v2.0":
-      return "##License";
+      return "## License";
       break;
 
     case "GNU General Public License v3.0":
-      return "##License";
+      return "## License";
       break;
 
     case "MIT License":
-      return "##License";
+      return "## License";
       break;
 
     default:
@@ -79,13 +79,13 @@ function generateMarkdown(data) {
 - [Questions](#questions)
 ## Description of Project
  ${data.description}
-## Installation instructions
+## Installation 
 ${data.instructions}
-## Usage information
+## Usage
 ${data.usage}
-## Contribution instructions
+## Contributing
 ${data.contribution}
-## Tests instructions
+## Tests
 ${data.test}
 ${renderLicenseSection(data.license)}
 ${renderLicenseLink(data.license)}
