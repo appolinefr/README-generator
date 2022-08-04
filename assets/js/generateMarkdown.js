@@ -7,11 +7,11 @@ function renderLicenseBadge(license) {
       break;
 
     case "MIT License":
-      return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT";
+      return "[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
       break;
 
     case "GNU General Public License v3.0":
-      return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
+      return "[![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
       break;
 
     default:
@@ -90,9 +90,7 @@ ${data.test}
 ${renderLicenseSection(data.license)}
 ${renderLicenseLink(data.license)}
 ### Questions
-- Github username: [${data.github}](https://github.com/${
-    data.github
-  }) | link to Github profile:  https://github.com/${data.github}
+- Github username: [${data.github}](https://github.com/${data.github}) 
 - Email address: ${data.email}
 `;
 }
