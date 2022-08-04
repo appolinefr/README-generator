@@ -22,7 +22,7 @@ Manually creating a table of content was something new but easily implemented on
 
 #### Walkthrough video
 
-[Link to Walkthrough video](https://youtu.be/QvjqL0HbqM8)
+[Link to Walkthrough video](https://drive.google.com/file/d/1HnGZQ_iE52Nra2UF0LqRvexW4CdSGn84/view)
 
 #### Generated README File
 
