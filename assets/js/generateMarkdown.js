@@ -67,7 +67,6 @@ function renderLicenseSection(license) {
 
 // function generating the content of readme file
 function generateMarkdown(data) {
-  console.log(data);
   return `${renderLicenseBadge(data.license)}
   # ${data.title}
 ## Table of content 
@@ -91,7 +90,9 @@ ${data.test}
 ${renderLicenseSection(data.license)}
 ${renderLicenseLink(data.license)}
 ### Questions
-- Github username: (https://github.com/${data.github})
+- Github username: [${data.github}](https://github.com/${
+    data.github
+  }) | link to Github profile:  https://github.com/${data.github}
 - Email address: ${data.email}
 `;
 }

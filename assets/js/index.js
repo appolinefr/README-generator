@@ -11,7 +11,7 @@ const questions = [
   {
     type: "input",
     message: "Write a description of your project",
-    name: "descritpion",
+    name: "description",
   },
   {
     type: "input",
@@ -58,7 +58,7 @@ const questions = [
 
 //function to write README file
 function writeToFile(data) {
-  fs.writeFileSync("README.md", generateMarkdown(data), (err) =>
+  fs.writeFile("README.md", generateMarkdown(data), (err) =>
     err
       ? console.log(err)
       : console.log("Your readme file was successfully created!")
