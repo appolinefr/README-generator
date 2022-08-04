@@ -26,4 +26,4 @@ Manually creating a table of content was something new but easily implemented on
 
 #### Generated README File
 
-[Link to generated README File](https://github.com/appolinefr/readme-generator/dist/README.md)
+[Link to generated README File](https://github.com/appolinefr/readme-generator/tree/main/dist)
