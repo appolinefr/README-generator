@@ -2,14 +2,14 @@
   # README Generator
 ## Table of content 
 - [Description of Project](#description-of-project)
-- [Installation instructions](#installation)
-- [Usage information](#usage)
-- [Contribution instructions](#contributing)
-- [Tests instructions](#tests)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
 - [Licence](#licence)
 - [Questions](#questions)
 ## Description of Project
- this is a command-line application designed to create automated readme file
+  this is a command-line application designed to create automated readme file
 ## Installation 
 none
 ## Usage
