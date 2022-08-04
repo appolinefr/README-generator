@@ -71,10 +71,10 @@ function generateMarkdown(data) {
   # ${data.title}
 ## Table of content 
 - [Description of Project](#description-of-project)
-- [Installation instructions](#installation-instructions)
-- [Usage information](#usage-information)
-- [Contribution instructions](#contribution-instructions)
-- [Tests instructions](#tests-instructions)
+- [Installation instructions](#installation)
+- [Usage information](#usage)
+- [Contribution instructions](#contributing)
+- [Tests instructions](#tests)
 - [Licence](#licence)
 - [Questions](#questions)
 ## Description of Project
