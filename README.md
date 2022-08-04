@@ -15,7 +15,7 @@ The main acceptance criteria were as follow:
 
 ## Challenges
 
-The main challenge of creating this command-line application was to make sure that the generated readme file was created in a dist folder and not within the js folder along with my javascript files. 
+The main challenge of creating this command-line application was to make sure that the generated readme file was created in a dist folder and not within the js folder along with my javascript files. After some research I was able to implement the extra few lines of codes required and made it work.
 Manually creating a table of content was something new but easily implemented once I figured the syntax.
 
 #### Screenshot of the command-line application
